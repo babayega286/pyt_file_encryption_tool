@@ -1,2 +1,54 @@
 # pyt_file_encryption_tool
 A user-friendly desktop application built with Python and PyQt5 to encrypt and decrypt files using strong AES encryption. This tool provides a modern graphical interface for securing sensitive data with a password.
+
+
+
+***🔒 Strong AES Encryption:** Uses the `cryptography` library's `Fernet` implementation for robust, industry-standard security.
+**🔑 Password-Based Security:** Encrypt and decrypt files using a simple password, which is converted into a secure encryption key.
+***🖥️ Modern GUI:** Built with PyQt5 for a clean, responsive, and user-friendly experience.
+***📁 Easy File Selection:** Native file dialog to quickly browse and select the file you want to process.
+***🎨 Styled Interface:** A dark-themed UI with color-coded buttons for clear actions (Select, Encrypt, Decrypt).
+***⏱️ Real-time Feedback:** Status messages and error handling to keep you informed.
+
+## 🛠️ How It Works
+Step 1.  **Select a File:** Click the "Select File" button and choose any file from your system.
+Step 2.  **Enter a Password:** Type a password into the input field. **Remember this password!** You'll need it to decrypt the file.
+Step 3.  **Encrypt or Decrypt:**
+    *   Click **"Encrypt File"** to create an encrypted copy of your file (a new file with a `.enc` extension will be created).
+    *   Click **"Decrypt File"** on an encrypted (`.enc`) file to restore it to its original form.
+
+
+
+## ⚙️ Installation
+
+1.  **Prerequisite:** Make sure you have Python (3.6 or higher) installed on your system.
+
+2.  **Clone the repository:**
+    git clone https://github.com/your-username/file-encryption-tool-pyqt.git
+    cd file-encryption-tool-pyqt
+3.  **Install the required dependencies:**
+    pip install pyqt5 cryptography
+    
+## 🚀 Usage
+Run the main script from your terminal:
+python file_encryptor.py
+
+1.  The application window will appear.
+2.  Click **"Select File"** and navigate to the file you wish to encrypt or decrypt.
+3.  Enter your password in the **"Enter password"** field.
+4.  Click the **"Encrypt File"** or **"Decrypt File"** button.
+5.  Check the original folder for your new `.enc` (encrypted) or restored (decrypted) file. A message at the top of the window will confirm the result.
+
+## 📁 Project Structure
+
+file-encryption-tool-pyqt/
+├── file_encryptor.py      # The main application code
+├── README.md              # This file
+├── requirements.txt       # List of Python dependencies
+
+## 🔧 Dependencies
+*   `PyQt5`: For creating the graphical user interface.
+*   `cryptography`: Provides the `Fernet` symmetric encryption (AES).
+
+## 📄 License
+This project is open source and available for further testing.
