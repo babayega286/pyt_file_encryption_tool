@@ -4,10 +4,15 @@ A user-friendly desktop application built with Python and PyQt5 to encrypt and d
 
 
 ***🔒 Strong AES Encryption:** Uses the `cryptography` library's `Fernet` implementation for robust, industry-standard security.
+
 **🔑 Password-Based Security:** Encrypt and decrypt files using a simple password, which is converted into a secure encryption key.
+
 ***🖥️ Modern GUI:** Built with PyQt5 for a clean, responsive, and user-friendly experience.
+
 ***📁 Easy File Selection:** Native file dialog to quickly browse and select the file you want to process.
+
 ***🎨 Styled Interface:** A dark-themed UI with color-coded buttons for clear actions (Select, Encrypt, Decrypt).
+
 ***⏱️ Real-time Feedback:** Status messages and error handling to keep you informed.
 
 ## 🛠️ How It Works
