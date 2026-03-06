@@ -36,7 +36,7 @@ Step 3.  **Encrypt or Decrypt:**
     
 ## 🚀 Usage
 Run the main script from your terminal:
-python file_encryptor.py
+python Python_fileencryptdecryptool_using_AES
 
 1.  The application window will appear.
 2.  Click **"Select File"** and navigate to the file you wish to encrypt or decrypt.
@@ -56,4 +56,4 @@ file-encryption-tool-pyqt/
 *   `cryptography`: Provides the `Fernet` symmetric encryption (AES).
 
 ## 📄 License
-This project is open source and available for further testing.
+This project is open source and available for further experimenting.
