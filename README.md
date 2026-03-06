@@ -29,7 +29,7 @@ Step 3.  **Encrypt or Decrypt:**
 1.  **Prerequisite:** Make sure you have Python (3.6 or higher) installed on your system.
 
 2.  **Clone the repository:**
-    git clone https://github.com/your-username/file-encryption-tool-pyqt.git
+    git clone https://github.com/babayega286/pyt_file_encryption_tool
     cd file-encryption-tool-pyqt
 3.  **Install the required dependencies:**
     pip install pyqt5 cryptography
