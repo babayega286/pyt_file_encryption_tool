@@ -44,11 +44,13 @@ python Python_fileencryptdecryptool_using_AES
 4.  Click the **"Encrypt File"** or **"Decrypt File"** button.
 5.  Check the original folder for your new `.enc` (encrypted) or restored (decrypted) file. A message at the top of the window will confirm the result.
 
-## 📁 Project Structure
+## 📁 Repo Structure
 
 file-encryption-tool-pyqt/
-├── file_encryptor.py      # The main application code
+├── Python_fileencryptdecryptool_using_AES     # The main application code
+
 ├── README.md              # This file
+
 ├── requirements.txt       # List of Python dependencies
 
 ## 🔧 Dependencies
